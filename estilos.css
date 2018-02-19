@@ -20,7 +20,7 @@ body{
   left:0px;
   rigth:0px;
  z-index: 1;
-filter: blur(0px);
+
   padding:1px;
   border-style: ridge;
 
@@ -138,9 +138,18 @@ position:relative;
   width:100%;
   z-index: 5;
   align-items: stretch;
- background-size: cover;
+
+
 
 }
+article{
+
+  bbackground: rgb(192, 192, 192);
+    /* Para navegadores que soportan RGBa mostramos el color sólido con un 50% de opacidad */
+    background: rgba(192, 192, 192, .2);
+    border-radius: 40px;
+}
+
 article p{
   font-size: 24px;
   padding: 8px;
