@@ -146,7 +146,7 @@ article{
 
   bbackground: rgb(192, 192, 192);
     /* Para navegadores que soportan RGBa mostramos el color sólido con un 50% de opacidad */
-    background: rgba(192, 192, 192, .2);
+    background: rgba(192, 192, 192, .5);
     border-radius: 40px;
 }
 
